@@ -1,0 +1,52 @@
+body{
+   background-image: url("weatherAppbg.jpg");
+   
+ background-size: cover;
+   
+}
+.head{
+	color: black;
+	padding: 2%;
+	text-align: center;
+
+}
+.main{
+	margin-left:35%;
+	
+	color: white;
+
+}
+.lab{
+padding: 2%;
+margin:2%;
+margin-bottom: 1%;
+}
+.inp{
+padding: 2%;
+margin:2%;
+margin-top: 1%;
+border-width: 5px;
+}
+.but{
+padding: 2%;
+margin:2%;
+}
+.first{
+color: white;
+text-align: center;
+}
+.second{
+	color: white;
+	font-weight: 10px;
+	color:#d3d3d3;
+}
+.image{
+	background-color: #7CB9E8;
+	
+	border-radius: 50px;
+}
+.back{
+	
+	margin: 2%;
+
+}

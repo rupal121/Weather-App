@@ -2,13 +2,19 @@
 <html>
 <head>
 	<title>Weather App</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-<form action="/" method="post">
-	<label for="cityInput">City Name</label>
-    <input type="text" name="cityName">
-    <button type="submit">Go</button>
-</form>
-
+	<h1 class="head">Check the Weather of your desired location</h1>
+	<div class="main input-group mb-3">
+		
+		<br>
+		<form action="/" method="post">
+  <label class ="lab" for="cityInput"><h2>Enter Location</h2></label>
+  <input class="inp" type="text" class="form-control" placeholder="Enter city.."  aria-describedby="basic-addon1" name="cityName">
+  <button class="but btn btn-lg btn-warning" type="submit">Go</button>
+  </form>
+</div>
 </body>
 </html>
