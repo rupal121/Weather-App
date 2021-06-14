@@ -36,7 +36,8 @@
 margin-left: 20%;
 
 margin-bottom: 1%;
-text-shadow: 2px 2px #76b5c5;
+color: black;
+text-shadow: 2px 2px #eeeee4;
 }
 .inp{
 	
@@ -49,10 +50,12 @@ margin-left: auto;
 margin-right: auto;
 }
 .first{
+	text-shadow: 2px 2px #eeeee4;
 color: black;
 text-align: center;
 }
 .second{
+	text-shadow: 2px 2px #eeeee4;
 	color: white;
 	font-weight: 10px;
 	color: black;
