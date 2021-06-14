@@ -13,7 +13,7 @@ res.sendFile(__dirname + "/index.html");
 
 app.post("/", function(req, res){
 const query = req.body.cityName;
-	const apiKey ="e06b364622ae9e570ba2b9d269ac3bdf";
+	const apiKey ="<Mailchimp Api Key>";
 	const unit ="metric"
 	const url = "https://api.openweathermap.org/data/2.5/weather?q="+ query +"&appid="+ apiKey +"&units="+unit;
 	
