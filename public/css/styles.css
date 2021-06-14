@@ -1,44 +1,61 @@
-body{
-   background-image: url("weatherAppbg.jpg");
-   
- background-size: cover;
-   
+
+   body { 
+  background: url("bgimg.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
 .head{
+	text-shadow: 2px 2px #eeeee4;
 	color: black;
 	padding: 2%;
 	text-align: center;
 
 }
+
+
 .main{
-	margin-left:35%;
-	
-	color: white;
+	    text-shadow: 2px 2px #eeeee4;
+	margin-left: 25%;
+	color: black;
 
 }
+@media only screen and (max-width: 600px) {
+  .main{
+	margin-left: 7%;
+	text-shadow: 2px 2px #eeeee4;
+	color: black;
+
+}
+}
+
 .lab{
-padding: 2%;
-margin:2%;
+
+margin-left: 20%;
+
 margin-bottom: 1%;
+text-shadow: 2px 2px #76b5c5;
 }
 .inp{
-padding: 2%;
-margin:2%;
-margin-top: 1%;
+	
 border-width: 5px;
 }
+
+
 .but{
-padding: 2%;
-margin:2%;
+margin-left: auto;
+margin-right: auto;
 }
 .first{
-color: white;
+color: black;
 text-align: center;
 }
 .second{
 	color: white;
 	font-weight: 10px;
-	color:#d3d3d3;
+	color: black;
 }
 .image{
 	background-color: #7CB9E8;
