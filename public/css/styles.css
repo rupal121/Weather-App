@@ -8,6 +8,7 @@
 }
 
 .head{
+	margin-top: 10%;
 	text-shadow: 2px 2px #eeeee4;
 	color: black;
 	padding: 2%;
@@ -17,10 +18,17 @@
 
 
 .main{
+	
 	    text-shadow: 2px 2px #eeeee4;
 	margin-left: 25%;
 	color: black;
 
+}
+.first{
+	margin-top: 10%;
+	text-shadow: 2px 2px #eeeee4;
+color: black;
+text-align: center;
 }
 @media only screen and (max-width: 600px) {
   .main{
@@ -28,6 +36,12 @@
 	text-shadow: 2px 2px #eeeee4;
 	color: black;
 
+}
+.head{
+	margin-top: 20%;
+}
+.first{
+	margin-top: 20%;
 }
 }
 
@@ -49,11 +63,7 @@ border-width: 5px;
 margin-left: auto;
 margin-right: auto;
 }
-.first{
-	text-shadow: 2px 2px #eeeee4;
-color: black;
-text-align: center;
-}
+
 .second{
 	text-shadow: 2px 2px #eeeee4;
 	color: white;
